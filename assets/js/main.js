@@ -10,5 +10,4 @@ new TypeIt('#hithere', {
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     $("#heroimage").css('right', scroll);
-
 });
